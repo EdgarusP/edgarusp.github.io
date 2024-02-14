@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title></title>
+<img src="logo.png" draggable="true">
+</head>
+
+<body>
+<h1 style="color:red;" id="hola" onclick="myFunction(this.id)">Dios te bendiga</h1>
+<h1>Bienvenido <br> amado hermano</h1>
+<a href="www.amamossupresencia.org">hahaha</a>
+<h6 id="sur" hidden>Sorpresa</h6>
+
+</body>
+
+<script>
+function myFunction(x){
+  var x = document.getElementById(x);
+  if (x.style.color == "blue") {
+  	x.style.color = "red";
+  }
+  else{
+  	x.style.color  = "blue";
+  }
+
+  sur.hidden = "false";
+}
+</script>
+
+</html>
